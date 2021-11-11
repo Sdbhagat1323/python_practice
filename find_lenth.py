@@ -9,5 +9,5 @@ def findLength(list):
         count += 1
     return count
 
-print(findLength(l2))
-print(len(l1))
+# print(findLength(l2))
+# print(len(l1))

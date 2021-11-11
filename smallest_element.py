@@ -23,3 +23,14 @@ def find_small2(list):
     return "the smallest element in list is {}".format(element)
 
 print(find_small2(list1))
+
+
+def find_small3(list):
+    """
+        take list argument and return smallest element in list.
+    """
+
+    sorted_list = sorted(list)
+    return "the smallest element in list is {}".format(sorted_list[0])
+
+print(find_small3(list1))
